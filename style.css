@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+}
+
+.a {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+  
+}
+
+.a li {
+    display: inline;
+    margin-left: 20px; 
+  background-image: url('./img/Design/ sem nome.pdf');
+   
+}
+
+.a li a {
+    text-decoration: none; 
+    color: #007bff; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    font-size: 32px;
+  
+  
+}
+
+.a li a:hover {
+    color: #0056b3; 
+}
+.c{
+    height: 450px;
+}
+nav {
+    background-color: #333;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-item > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.menu-item > a:hover {
+    background-color: aqua;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: aqua;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.submenu li {
+    border-bottom: 1px solid #ffffff;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #666;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+.ce{
+
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.A2{
+
+    background-color: white;
+}
+#menu {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+#menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+}
+
+#menu a:hover {
+    background-color: #0056b3;
+}
+h2{
+    color: white;
+   
+}
+
+h3{
+  
+    color: green;
+}
+.M1{
+
+    background-color: white;
+}
+@media (max-width: 768px) {
+    #n4 {
+        width: 100%; 
+        height: auto; 
+    }
+}
+.Car {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.Car .slick-slide {
+    display: flex; 
+    justify-content: center; 
+}
+
+.Car img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
