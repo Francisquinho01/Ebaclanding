@@ -2,43 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
-h1{
+h1 {
     color: white;
 }
 
 .a {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center; 
-  
+    text-align: center;
 }
 
 .a li {
     display: inline;
-    margin-left: 20px; 
-  background-image: url('./img/Design/ sem nome.pdf');
-   
+    margin-left: 20px;
+    background-image: url('./img/Design/ sem nome.pdf');
 }
 
 .a li a {
-    text-decoration: none; 
-    color: #007bff; 
-    font-weight: bold; 
-    transition: color 0.3s ease; 
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
     font-size: 32px;
-  
-  
 }
 
 .a li a:hover {
-    color: #0056b3; 
+    color: #0056b3;
 }
-.c{
-    height: 450px;
+
+.c {
+    height: auto;
+    width: 100%;
 }
+
 nav {
     background-color: #333;
     color: white;
@@ -62,13 +62,16 @@ nav {
     color: white;
     text-decoration: none;
     background-color: black;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .menu-item > a:hover {
     background-color: aqua;
+    box-shadow: 0px 0px 5px 10px white; 
 }
-
 .submenu {
+    
     display: none;
     position: absolute;
     top: 100%;
@@ -79,6 +82,7 @@ nav {
     margin: 0;
     min-width: 160px;
     z-index: 1000;
+    box-shadow: 0px 0px 5px 10px white; 
 }
 
 .submenu li {
@@ -103,17 +107,26 @@ nav {
 .menu-item:hover .submenu {
     display: block;
 }
-.ce{
 
+.ce {
     width: 100%;
 }
-body{
-    background-color: black;
-}
-.A2{
 
-    background-color: white;
+body {
+    margin: 0 auto;
+  background-color: rgb(9, 9, 9);
+    width: 1024px;
 }
+
+.A2 {
+    border-radius: 40px;
+    background-color: rgb(254, 255, 255);
+}
+.A2 img{
+    border-radius: 100px;
+    background-color: rgb(254, 255, 255);
+}
+
 #menu {
     list-style: none;
     padding: 0;
@@ -126,64 +139,88 @@ body{
 #menu a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; 
-    color: #fff; 
+    background-color: #007bff;
+    color: #fff;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     font-size: 16px;
     text-align: center;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
 
 #menu a:hover {
     background-color: #0056b3;
-}
-h2{
-    color: white;
-   
+    box-shadow: 0px 0px 5px 2px white; 
 }
 
-h3{
-  
+h2 {
+    color: white;
+}
+
+h3 {
     color: green;
 }
-.M1{
+#ae{
+    border-radius: 10px;
+}
+.M1 {
+    background-color: rgb(254, 254, 255);
+}
 
-    background-color: white;
-}
-@media (max-width: 768px) {
-    #n4 {
-        width: 100%; 
-        height: auto; 
-    }
-}
 .Car {
-    width: 100%; 
-    box-sizing: border-box; 
+    width: 100%;
+    box-sizing: border-box;
+  
+    border-radius: 10px;
 }
+
 .Car .slick-slide {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .Car img {
     width: 100%;
     height: auto;
+    border-radius: 100px;
 }
+
 .container {
     width: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-#n4 {
-    width: 313%; 
-    height: auto; 
-    display: block; 
+#n5 img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
-@media (max-width: 768px) {
-    #n4 {
-        width: 100%; 
-        height: auto;
+
+#n4 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1023px) {
+    #k {
+        display: none;
     }
+}
+#ai{
+    box-sizing: border-box;
+    border: 47px solid rgb(251, 255, 255);
+    border-radius: 100px;
+    background-color: rgb(7, 7, 7);
+}
+#a3a{
+    background-color: black;
+    border-radius: 30px;
+}
+#a12 img{
+    border-radius: 100px;
+
 }
