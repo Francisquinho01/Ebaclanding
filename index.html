@@ -24,7 +24,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-10">
+            <div class="col-lg-10 col-md-12 col-12">
 
                 <div id="a3a" class="container">
                     <div class="row">
@@ -114,7 +114,7 @@
 
                 <div class="A2">
                     <div class="container">
-                        <div id="ae" class="row">
+                        <div id="ae" class="row conteudo">
 
 
                             <div class="col-12 col-md-5  col-lg-6">
@@ -150,8 +150,12 @@
                 <p></p>
                 <div class="container">
                     <div id="ai" class="row">
+                        <div id="b1" class="col-12">
+                            <img src="./img/Radar Games (1).png" alt="">
+                        </div>
+                        <p></p>
                         <div class="col-lg-4 col-12 col-md-4">
-                            <h1>Produto</h1>
+                         
                             <ul id="menu">
                                 <li><a href="#" data-target="games-carousel">Games Disponíveis</a></li>
                                 <p></p>
@@ -216,10 +220,12 @@
                     </div>
                 </div>
 
-                <div class="M1">
+                <div id="az" class="M1">
                     <div class="container my-5">
-                        <div class="row">
-
+                        <div class="row conteudo">
+                            <div id="b1" class="col-12">
+                                <img src="./img/Radar Games (2).png" alt="">
+                            </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <h4>Horários de Funcionamento</h4>
                                 <table class="table table-bordered table-hover table-striped">
@@ -285,7 +291,7 @@
                 </div>
                 <p></p><br>
                 <div id="n5" class="col-12">
-                    <img src="./img/Radar Games.png" alt="">
+                    
                     <p>&copy; 2024 EBAC Game. Imagens meras ilustrativa.</p>
                 </div>
             </div>
@@ -357,7 +363,7 @@
                 autoplay: true,
                 autoplaySpeed: 2000,
                 dots: true,
-                arrows: true,
+                arrows: false, 
                 responsive: [
                     {
                         breakpoint: 768,
@@ -375,6 +381,7 @@
                     }
                 ]
             });
+    
             $('.carousel').slick({
                 dots: true,
                 infinite: true,
@@ -382,7 +389,9 @@
                 autoplaySpeed: 2000,
                 speed: 300,
                 slidesToShow: 2,
-                slidesToScroll: 1, responsive: [
+                slidesToScroll: 1,
+                arrows: false, 
+                responsive: [
                     {
                         breakpoint: 768,
                         settings: {
@@ -399,20 +408,16 @@
                     }
                 ]
             });
-
-
+    
+          
             $('#menu a').on('click', function (event) {
                 event.preventDefault();
-
-
                 $('.carousel-container').hide();
-
-
                 var target = $(this).data('target');
                 $('#' + target).show();
             });
-
-
+    
+            
             $('#menu a:first').trigger('click');
         });
     </script>
