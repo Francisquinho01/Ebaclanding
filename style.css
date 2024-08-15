@@ -176,3 +176,14 @@ h3{
     margin: 0;
     box-sizing: border-box;
 }
+#n4 {
+    width: 313%; 
+    height: auto; 
+    display: block; 
+}
+@media (max-width: 768px) {
+    #n4 {
+        width: 100%; 
+        height: auto;
+    }
+}
